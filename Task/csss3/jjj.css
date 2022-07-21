@@ -1,0 +1,55 @@
+.baner3{
+	float: left;
+	background-color: #A74AC7 ;
+	height: auto;
+	width: 100%;
+	color: white;
+	padding: 10px 0px 100px 5px;
+}
+.baner3box1{
+	float: left;
+	width: 33.33%;
+	height: auto;
+
+}
+.baner3inerbox1{
+	float: left;
+	width: 100%;
+	height: auto;
+}
+.baner3img1{
+	background-image: url(1.jpg);
+	background-size: 100% 100%;
+	float: left;
+	height: auto;
+}
+.baner3img2{
+	background-image: url(2.jpg);
+	background-size: 100% 100%;
+	float: left;
+	height: auto;
+}
+.baner3img3{
+	background-image: url(3.jpg);
+	background-size: 100% 100%;
+	float: left;
+	height: auto;
+}
+.baner3img4{
+	background-image: url(4.jpg);
+	background-size: 100% 100%;
+	float: left;
+	height: auto;
+}
+.baner3img5{
+	background-image: url(5.jpg);
+	background-size: 100% 100%;
+	float: left;
+	height: auto;
+}
+.baner3img6{
+	background-image: url(6.jpg);
+	background-size: 100% 100%;
+	float: left;
+	height: auto;
+}

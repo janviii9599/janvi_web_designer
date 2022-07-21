@@ -1,0 +1,238 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0px
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.headlogo{
+	background-color:red;
+	width: 15%;
+	height: auto;
+	padding: 10px;
+	float: left;
+}
+.headnav{
+	background-color:yellow;
+	width:85%;
+	height:auto;
+	float:left;
+	padding:10px;
+}
+.banner{
+	background-size: 100% 100%;
+	background-image: url(apple-4833764.jpg);
+	width: 100%;
+	height:auto;
+	float: left;
+	padding: 100px;
+	color:blue;
+	font-size: 30px;
+}
+.box1{
+	width: 50%;
+	height: auto;
+	float: left;
+	padding: 0px;	
+}
+.box2{
+	width:50%;
+	height:auto;
+	float:left;
+	padding:0px;
+}
+.button{
+	border-radius: 0px;
+	text-align: center;
+	padding: 20px 80px;
+  color: #A74AC7;
+  margin: 20px 10px 0px 0px;
+  background-color: white;
+}
+.button:hover{
+	background-color:#7D859A;
+	color: #CD682A;
+
+}
+.mainbar{
+	height: auto;
+	width: 80%;
+	float: left;
+	padding: 10px 0px 0px 0px;
+	
+}
+.box3{
+	width: 40%;
+	height: auto;
+	float: left;
+	padding: 100px 10px 10px 10px;
+	border-color: red;
+}
+.button1{
+	border-radius: 0px;
+	text-align: center;
+	padding: 20px 80px;
+  color: #A74AC7;
+  margin: 20px 10px 0px 0px;
+  background-color: white;
+}
+.button1:hover{
+	background-color:#7D859A;
+	color: #CD682A;
+
+}
+
+.box4{
+	width: 60%;
+	height: auto;
+	float: right;
+	padding: 45px 0px 56px 0px;   
+}
+.innerbox1{
+	width: 28.33%;
+	height: auto;
+	float:left;
+	margin: 6px;
+	padding: 48px 5px 110px 10px ;
+	text-align:center;
+	background-color: #703CBB;
+	color: white;	
+}
+.innerbox2{
+	width: 28.33%;
+	height: auto;
+	float:left;
+	margin: 6px;
+	padding: 48px 5px 110px 10px ;
+	text-align:center;
+	background-color: #E31D86;
+	color: white;	
+}
+.innerbox3{
+	width: 28.33%;
+	height: auto;
+	float:left;
+	margin: 6px;
+	padding: 48px 5px 110px 10px ;
+	text-align:center;
+	background-color: #211F20;
+	color: white;	
+}
+.button2{
+	border-radius: 0px;
+	text-align: center;
+	padding: 20px 80px;
+  color: white;
+  margin: 20px 10px 0px 0px;
+  background-color:black;
+}
+.button2:hover{
+	background-color:#7D859A;
+	color: #CD682A;
+
+}
+
+
+.baner1{
+
+	background-size: 100% 100%;
+	background-image: url(currants-5270094.jpg);
+	width: 100%;
+	height:auto;
+	float: left;
+	padding: 100px;
+	color:white;
+	font-size: 30px;
+}
+.box5{
+	width: 50%;
+	height: auto;
+	float: left;
+	padding: 100px 10px 10px 10px;
+	border-color: red;
+	
+}
+.box6{
+	width: 50%;
+	height: auto;
+	float: left;
+	padding: 50px;
+    
+}
+.button3{
+	border-radius: 0px;
+	text-align: center;
+	padding: 15px 150px;
+  color: white;
+  margin: 20px 10px 0px 0px;
+  background-color:black;
+}
+.inputbox{
+	width: 58%;
+	height:10%;
+	padding: 10px;
+}
+.baner2{
+	float: left;
+	background-color: #A74AC7 ;
+	height: auto;
+	width: 100%;
+	color: white;
+}
+.sidebar1{
+	height: 1px;
+	width: 10%;
+	background-color:  ;
+	float: left;
+	padding: 0px;
+}
+.mainbar1{
+	height: auto;
+	width: 80%;
+	float: left;
+	padding: 0px 0px 0px 0px;
+}
+.baner2box1{
+	float: left;
+	width: 33.33%;
+	height: auto;
+	padding: 2px 2px 2px 2px;
+}
+
+.baner2inerbox1{
+	width: 20%;
+	height: auto;
+	color: white;
+	float: left;
+	padding-top: 25px;
+
+}
+.baner2inerbox2{
+	width: 80%;
+	height: auto;
+	color: white;
+	float: left;
+}
+
+.Fruits{
+	text-align: center;
+    font-size: 32px;
+    color: #6a4aa1;
+    margin-top: 70px;
+    font-family: arial;
+}
+.h3{
+	font-size: 18px;
+	color: #000;
+	text-align: center;
+	font-style: italic;
+	margin-top: -24px;
+}
+
+
+
+
+

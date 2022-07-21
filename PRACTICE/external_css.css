@@ -1,0 +1,33 @@
+
+	h5{
+		background-color:pink;
+		color:red;
+	}
+	
+	h1,h2,h3{
+		background-color:blue;
+		color:white;
+	}
+
+	.test{
+		color:red;
+	}
+	.mytest{
+		background-color:pink;
+	}
+	
+	#test1{
+		color:green;
+	}
+	
+	
+	h4.demo{
+		color:green;
+		font-size:30px;
+		background-color:yellow;
+	}
+	
+	
+	
+	
+	
