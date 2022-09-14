@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> STUDENT FORM </title>
+</head>
+<body>
+    <script>
+
+        function result()
+        {
+            
+            var english=document.getElementById('english').value;
+            var maths=document.getElementById('maths').value;
+            var science=document.getElementById('science').value;
+            var gujarati=document.getElementById('gujarati').value;
+            var hindi=document.getElementById('hindi').value;
+            var computer=document.getElementById('computer').value;
+
+            var total;
+            total=+english + +maths  + +science + +gujarati +  +hindi + +computer;
+            document.getElementById('total').innerHTML=total;
+            document.getElementById('total').style.color="orabge";
+
+            var per;
+            per=(total/600)*100;
+            document.getElementById('per').innerHTML=per;
+            document.getElementById('per').style.color="blue";
+
+
+            if(per>=90)
+            {
+                document.getElementById('grade').innerHTML="GRADE : A";
+                document.getElementById('grade').style.color="green";
+            }
+            else if(per>=70)
+            {
+                document.getElementById('grade').innerHTML="GRADE : B";
+                document.getElementById('grade').style.color="green";
+            }
+            else if(per>=50)
+            {
+                document.getElementById('grade').innerHTML="GRADE : C";
+                document.getElementById('grade').style.color="green";
+            }
+            else if(per>=40)
+            {
+                document.getElementById('grade').innerHTML="YOU ARE FAIL";
+                document.getElementById('grade').style.color="red";
+            }
+        }
+    </script>
+      
+    <fieldset>
+
+        <legend style="text-align:center;">
+            <h1> STUDENTS DETAILS </h1>
+        </legend>
+        
+        <div class="container mt-3" style="text-align: center;">
+
+            <h3 > STUDENTS MARKS : </h3>
+
+            <form action="#">
+                <!-- 
+
+                    <div class="mb-3 mt-3">
+
+                     <lable for="name"> NAME : </lable>
+                     <input type="text" class="form-control" id="name" placeholder="enter the student name" name="text" required min="0" max="100">
+                
+                    </div>
+
+                    <br>
+
+                <div class="mb-3 mt-3">
+
+                     <lable for="name"> SURNAME : </lable>
+                     <input type="text" class="form-control" id="surname" placeholder="enter the stduent surname" name="text" required min="0" max="100">
+                
+                </div>
+
+                    <br>
+
+                <div class="mb-3 mt-3">
+                    
+                     <lable for="name"> ROll NO : </lable>
+                     <input type="number" class="form-control" id="rollno" placeholder="enter the english marks" name="name" required min="0" max="100">
+                
+                </div>
+
+                    <br>
+
+                -->
+
+                <div class="mb-3 mt-3">
+
+                     <lable for="email"> ENGLISH : </lable>
+                     <input type="number" class="form-control" id="english" placeholder="enter the english marks" name="english" required>
+                
+                </div>
+
+                    <br>
+
+                <div class="mb-3 mt-3">
+
+                    <lable  for="email"> MATHS : </lable>
+                    <input type="number" class="form-control" id="maths" placeholder="enter the maths marks" name="maths" required>
+                
+                </div>
+
+                    <br>
+
+                <div class="mb-3 mt-3">
+
+                    <lable for="email" > SCIENCE : </lable>
+                    <input type="number" class="form-control" id="science" placeholder="enter the science marks" name="science" required>
+                
+                </div>
+
+                    <br>
+
+                <div class="mb-3 mt-3">
+
+                    <lable for="email"> GUJARATI : </lable>
+                    <input type="number" class="form-control" id="gujarati" placeholder="enter the gujrati marks" name="gujarati" required>
+                
+                </div>
+
+                    <br>
+
+                <div class="mb-3 mt-3">
+
+                    <lable  for="email"> HINDI : </lable>
+                    <input type="number" class="form-control" id="hindi" placeholder="enter the hindi marks" name="hindi" required min="0" max="100">
+                
+                </div>
+
+                    <br>
+
+                <div class="mb-3 mt-3">
+
+                    <lable for="email"> COMPUTER : </lable>
+                    <input type="number" class="form-control" id="computer" placeholder="enter the computer marks" name="computer" required min="0" max="100">
+                
+                </div>
+
+                    <br>
+
+                    <hr> 
+
+                 <button type="submit" class="btn btn-primary" onclick="return result()"> SUBMIT</button>
+                    
+
+
+                 <hr> 
+            
+            </form>
+
+            <h4 id="total"> TOTAL : </h4>
+            
+            <hr> 
+            <h4 id="per"> PER : </h4>
+            <hr> 
+            <h4 id="grade"> GRADE : </h4>
+            <hr> 
+
+        </div>  
+
+    </fieldset>
+
+    
+</body>
+</html>

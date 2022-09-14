@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;   
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header{
+  width: 100%;
+  height: auto;
+  background-color:black;
+  color: green;
+}
